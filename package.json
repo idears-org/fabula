@@ -1,10 +1,10 @@
 {
-  "name": "vite-react-tailwind-ts-template",
+  "name": "fabula",
   "private": true,
   "version": "0.1.0",
-  "description": "A Vite-based React template with TypeScript, TailwindCSS, Vitest, Storybook, ESLint, and Prettier configured.",
+  "description": "fabula is a story visualization and analysis platform for writers. Visualize character networks, timelines, sentiment arcs, and more.",
   "type": "module",
-  "author": "",
+  "author": "idears.org",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

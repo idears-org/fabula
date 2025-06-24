@@ -1,6 +1,6 @@
 <!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
 
-# GitHub Copilot Instructions for SPA (Single Page Application) project
+# GitHub Copilot Instructions for fabula project
 
 ## 1. General Principles & Communication
 

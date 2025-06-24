@@ -16,11 +16,11 @@ Thank you for considering contributing! We welcome all contributions, from bug r
    * Run `pnpm lint` (or equivalent) and ensure your code is formatted correctly before committing.
    * Ensure your code passes type checks (e.g., `pnpm type-check` or as part of the `build` script).
 3. **Testing**: Write unit and/or integration tests for your changes. Ensure all tests pass (e.g., `pnpm test`).
-4. **Documentation**: Update relevant documentation (`JSDoc`, files in the `docs/` directory) if your changes impact existing features or add new ones.
+4. **Documentation**: Update relevant documentation (files in the `docs/` directory) if your changes impact existing features or add new ones.
 5. **Commit Messages**: Follow the [`Conventional Commits`](https://www.conventionalcommits.org/) specification for clear and consistent commit history.
 6. **Pull Request (`PR`)**:
    * Push your branch to your fork.
-   * Create a `PR` against the `main` (or `develop`) branch of the original repository.
+   * Create a `PR` against the `master` (or `develop`) branch of the original repository.
    * Provide a clear description of your changes in the `PR`.
    * Ensure all `CI` checks (if configured) pass.
 7. **Code Review**: Your `PR` will be reviewed by maintainers. Address any feedback provided.

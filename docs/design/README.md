@@ -1,24 +1,35 @@
-# Design Documentation
+# fabula Design Overview
 
-This directory contains all design-related artifacts for the project. The primary goal is to provide clear, version-controlled documentation of the application's design, from initial concepts to detailed specifications.
+This document outlines the main visualization concepts and design principles for fabula.
 
-## Contents
+## Core Visualization Dimensions
 
-Files in this directory should cover:
+### Characters
 
-* **`UI/UX` Prototypes**: Interactive or static mockups demonstrating user flows and interface layouts (e.g., `prototype.md`). These can be described in Markdown, or link to external tools like `Figma`, `Sketch`, etc.
-* **Visual Mockups**: High-fidelity representations of the user interface, showcasing the visual appearance, branding, and style. These are typically image files (`PNG`, `JPG`, `SVG`) or links to design tool files.
-* **User Flow Diagrams**: Visual representations of the paths users take through the application to complete tasks. These can be created using tools that export to images/`SVG` or described using Markdown with diagramming tools like `Mermaid.js`.
-* **Visual Design Specifications**: Detailed guidelines on typography, color palettes, spacing, iconography, and other visual elements, if not fully covered by `tailwind.config.js` or a component style guide in `docs/uiux/`.
+- **Character Network Graph**: Force-directed, interactive, node size by importance, edge color/style by relationship.
+- **Character Arc Chart**: Line chart showing custom metrics (e.g., power, morality) over story time.
+- **Screen Time Chart**: Pie or bar chart of character presence by chapter or overall.
 
-## File Formats
+### Plot
 
-* **Markdown (`.md`)**: Preferred for textual descriptions, low-fidelity prototypes, and linking to other resources.
-* **Images (`.png`, `.jpg`, `.svg`)**: For visual mockups and diagrams.
-* **Links**: To external design tools or platforms where interactive prototypes or large design files are hosted.
+- **Story Timeline**: Horizontal, scrollable timeline of key events, with support for multiple narrative threads.
+- **Scene Flowchart**: Flowchart of scenes and their sequence, supporting non-linear narratives.
+- **Sentiment Arc**: Line chart of emotional tone (via NLP) across the story.
 
-## Example
+### Setting & Location
 
-* `prototype.md`: Describes the application's key screen prototypes and interaction details in Markdown format.
+- **Interactive Map**: Custom map with event markers and character movement paths.
+- **Location Flow Diagram**: Sankey diagram showing movement between locations.
 
-Remember to keep this documentation synchronized with any changes in the application's design.
+### Themes & Motifs
+
+- **Word Cloud**: Visualize most frequent words or phrases.
+- **Concept Map**: Network of abstract concepts and their connections.
+
+## Design Principles
+
+- Clarity and usability for writers
+- Interactive, explorable visualizations
+- Modular, extensible architecture
+
+For UI/UX guidelines, see `docs/uiux/README.md`.
