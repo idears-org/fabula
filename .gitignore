@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local environment variables
+.env.local
+.env.*.local
+
+# Build output
+dist
+dist-ssr
+
+# Dependencies
+node_modules
+
+# Editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Storybook output
+storybook-static
+storybook.log
+
+# Test coverage
+coverage
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# IDE specific files
+*.bak
+*.orig
+*.tmp
+
+# pnpm lockfile - should be committed by users of the template, not the template itself.
+# pnpm-lock.yaml
